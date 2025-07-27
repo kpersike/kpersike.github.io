@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    padding:  0;
+    margin: 0;
+}
+
+header{
+    background-color: #0F0F0F;
+    color: #F8F8FF;
+    padding: 16px 128px;
+}
+
+nav{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    gap: 64px;
+    text-transform: uppercase;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+}
+
+h1{
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 5%;
+  margin: 0;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+p, h2, nav ul, footer{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 10%;
+  margin: 0;
+}
+
+button{
+    padding: 10px;
+    border-radius: 50px;
+    border: solid 2px;
+    background-color: transparent;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}
+
+#about, #projects, #skills, #feedbacks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 128px;
+}
+
+#about, #skills{
+    background-color: #F8F8FF;
+    color: #0F0F0F;
+}
+
+#about button{
+    border-color: #0F0F0F;
+    color: #0F0F0F;
+}
+
+#projects, #feedbacks{
+    background-color: #0F0F0F;
+    color: #F8F8FF;
+}
+
+#projects button{
+    border-color: #F8F8FF;
+    color: #F8F8FF;
+}
+
+.letter_K, .letter_A, .letter_I{
+    font-size: 320px;
+}
+
+.about__container{
+    width: 388px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 10px;
+}
+
+.social__medias{
+    display: flex;
+    gap: 16px;
+}
+
+.social__medias i{
+    font-size: 24px;
+}
+
+.projects__container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 10px;
+    width: fit-content;
+    color: #F8F8FF;
+}
+
+.projects__container button{
+    width: fit-content;   
+}
+
+.projects__list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+    max-width: calc(2 * 400px + 24px);
+}
+
+.project__item{
+    width: 400px;
+    height: 250px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+#skills h1{
+    text-align: center;
+}
+
+.skills__container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 10px;
+}
+
+.skills__list, .feedbacks__list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills__item{
+    width: 448px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.feedbacks__container{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 10px;
+}
+
+.feedbacks__list{
+    gap: 24px;
+}
+
+.feedback__item{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 10px;
+    border-radius: 50px;
+    border: solid 1px #F8F8FF;
+    width: 350px;
+}
+
+.feedback__text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.feedback__perfil{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.feedback__item img{
+    width: 48px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;  
+  gap: 16px;
+}
+
+footer{
+    background-color: #F8F8FF;
+    color: #0F0F0F;
+    text-align: center;
+    padding: 16px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
